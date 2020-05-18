@@ -1,2 +1,2 @@
 # projeto01
-projeto 01 do curso full stack
+projeto 01 da seção HTML 5
