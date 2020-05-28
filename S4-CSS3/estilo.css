@@ -1,0 +1,9 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url('imagens/amazon2.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 800px;
+    background-position: center bottom;
+    background-color: #B894E2;
+}
