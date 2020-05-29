@@ -1,0 +1,54 @@
+body{
+    background-color: #D2D2C1;
+    background-image: url('imagens/fundo.png');
+    background-size: 300px;
+    background-attachment: fixed;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}
+
+a{
+    color: rgb(78, 78, 78);
+    font-weight: bold;
+    text-decoration: none;
+    padding: 5px;
+}
+
+h1{
+    font-size: 27px;
+    color: rgb(114, 114, 103);
+}
+
+#principal{
+    width: 900px;
+}
+
+#barra{
+    background-color: #C5C5B2;
+    padding: 15px;
+}
+
+#conteudo{
+    background: #E8E8D9;
+    padding: 10px;
+}
+
+#rodape{
+    background-color: #C5C5B2;
+    color: rgb(78, 78, 78);
+    font-weight: bold;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.centralizar{
+    text-align: center;
+}
+
+.img-campanha{
+    text-align: center;
+    border: 10px outset #C3C3AE;
+}
