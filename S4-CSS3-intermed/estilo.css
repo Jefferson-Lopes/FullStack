@@ -1,0 +1,8 @@
+.conteudo{
+    border-width: 1px;
+    border-style: solid;
+    border-color: blueviolet;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+}
