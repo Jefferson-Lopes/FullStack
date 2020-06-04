@@ -31,8 +31,51 @@ div a{
 
 h1 + p{
     color: springgreen;
-}*/
+}
 
 h1 ~ p{
     color: steelblue;
+}*/
+
+
+
+/***********************
+Herança e especificidade
+***********************/
+
+*{
+    border: 1px outset teal;
+}
+
+/*body{
+    color: teal;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.pagina{
+
+}
+
+p{
+    color: teal !important;
+}
+
+p{
+    color: tomato;
+}*/
+
+*{/*4*/
+    color: yellowgreen;
+}
+
+h2{/*3*/
+    color: tomato;
+}
+
+h2.verde{/*2*/
+    color: springgreen;
+}
+
+h2#amarelo{/*1*/
+    color: goldenrod;
 }
