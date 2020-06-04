@@ -1,0 +1,38 @@
+/*
+*{
+    border:2px outset firebrick;
+}
+
+h1{
+    color: forestgreen;
+}
+
+.verde{
+    color: green;
+}
+
+p.verde{
+    color: darkgreen;
+}
+
+#cabeçalho{
+    border: 2px outset purple;
+}
+
+li > a{
+    color: slategrey;
+    text-decoration: none;
+}
+
+div a{
+    color: slategrey;
+    text-decoration: none;
+}
+
+h1 + p{
+    color: springgreen;
+}*/
+
+h1 ~ p{
+    color: steelblue;
+}
