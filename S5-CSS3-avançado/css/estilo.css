@@ -39,15 +39,17 @@ h1 ~ p{
 
 
 
+
+
 /***********************
 Herança e especificidade
 ***********************/
-
+/*
 *{
     border: 1px outset teal;
 }
 
-/*body{
+body{
     color: teal;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -62,20 +64,67 @@ p{
 
 p{
     color: tomato;
-}*/
+}
 
-*{/*4*/
+*{/*4*
     color: yellowgreen;
 }
 
-h2{/*3*/
+h2{/*3*
     color: tomato;
 }
 
-h2.verde{/*2*/
+h2.verde{/*2*
     color: springgreen;
 }
 
-h2#amarelo{/*1*/
+h2#amarelo{/*1*
     color: goldenrod;
+}
+*/
+
+
+
+
+/**************************
+Barra de navegação vertical
+**************************/
+
+/*ul{
+    
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+li{
+    border: 1px outset teal;
+    padding: 10px 20px;
+    background: url("../imagens/seta.png") no-repeat;
+    background-position: left;
+}*/
+
+ul{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+ul a{
+    width: 200px;
+    height: 40px;
+    display: block;
+    background: #F7B600 url("../imagens/menu.png") left;
+    text-decoration: none;
+    color: darkolivegreen;
+    text-indent: 35px;
+    line-height: 40px;
+}
+
+a:hover, .selecionado a{
+    background-position: right;
+    background-color: #F99200;
+    color: #FFF;
 }
