@@ -102,7 +102,7 @@ li{
     padding: 10px 20px;
     background: url("../imagens/seta.png") no-repeat;
     background-position: left;
-}*/
+}
 
 ul{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -127,4 +127,50 @@ a:hover, .selecionado a{
     background-position: right;
     background-color: #F99200;
     color: #FFF;
+}*/
+
+
+
+/****************************
+Barra de navegação horizontal
+****************************/
+
+*{
+    /*border: 1px solid orangered;*/
+}
+
+ul#navegacao{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 720px;
+    background-color: #159CB0;
+    background-image: url("../imagens/fundo-horizontal.png");
+    background-repeat: repeat-x;
+    float: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+ul#navegacao li{
+    float: left; 
+}
+
+ul#navegacao a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 2.76em;
+    line-height: 2em;
+    color: whitesmoke;
+    font-weight: bold;
+    background-image: url(../imagens/divisor.png);
+    background-repeat: no-repeat;
+}
+
+ul#navegacao .primeiro a{
+    background: none;
+}
+
+ul#navegacao a:hover, ul#navegacao .selecionado a{
+    color: #085662;
+    background-color: #44CADE;
 }
