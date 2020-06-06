@@ -134,9 +134,9 @@ a:hover, .selecionado a{
 /****************************
 Barra de navegação horizontal
 ****************************/
-
+/*
 *{
-    /*border: 1px solid orangered;*/
+    border: 1px solid orangered;
 }
 
 ul#navegacao{
@@ -173,4 +173,126 @@ ul#navegacao .primeiro a{
 ul#navegacao a:hover, ul#navegacao .selecionado a{
     color: #085662;
     background-color: #44CADE;
+}
+*/
+
+
+
+/**************************
+Barra de navegação com abas
+**************************/
+/*
+*{
+    border: 1px solid teal;
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 720px;
+}
+
+ul li{
+    float: left;
+    background: url(../imagens/aba-direita.png) no-repeat top right;
+}
+
+li a{
+    display: block;
+    padding: 0 2em;
+    line-height: 3em;
+    text-decoration: none;
+    background: url(../imagens/aba-esquerda.png) no-repeat top left;
+    color: whitesmoke;
+}
+
+ul a:hover{
+     color: #894A1F;
+}
+
+ul #atual{
+    background: url(../imagens/aba-direita-atual.png) no-repeat top right;
+}
+
+ul #atual a{
+    background: url(../imagens/aba-esquerda-atual.png) no-repeat top left;
+}
+*/
+
+
+
+
+/******
+Layouts
+*******/
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: #F2F2F2;
+}
+
+#container{
+    width: 720px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+#marca{
+    height: 100px;
+    background-color: #9E9E9E;
+    text-align: center;
+    line-height: 100px;
+}
+
+#conteudo{
+    width: 520px;
+    float: right;
+}
+
+#conteudo-principal{
+    width: 320px;
+    float: left;
+}
+
+#conteudo-secundario{
+    width: 180px;
+    float: right;
+    background-color: #D1D1D1;
+}
+
+
+#navegacao{
+    width: 180px;
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #D1D1D1;
+    font-weight: bold;
+}
+
+#navegacao ul{
+    list-style-type: none;
+}
+
+#navegacao li{
+    padding: 10px 5px; 
+}
+
+#navegacao a{
+    text-decoration: none;
+    color: darkolivegreen;
+}
+
+#rodape{
+    clear: both;
+    background-color: #C4C4C4;
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+    color: darkolivegreen;
 }
