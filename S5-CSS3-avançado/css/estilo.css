@@ -212,7 +212,7 @@ li a{
 }
 
 ul a:hover{
-     color: #894A1F;
+px     color: #894A1F;
 }
 
 ul #atual{
@@ -230,16 +230,16 @@ ul #atual a{
 /******
 Layouts
 *******/
-
+/*
 body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background: #F2F2F2;
 }
 
 #container{
-    width: 85%;
+    width: 960px;
     margin: 0 auto;
-    background-color: white;
+    background: white url(../imagens/coluna.png) repeat-y left top;
     min-width: 640px;
     max-width: 960px;
 }
@@ -302,4 +302,44 @@ body{
     text-align: center;
     font-weight: bold;
     color: darkolivegreen;
+}
+*/
+
+
+
+/******
+Tabelas
+******/
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+table{
+    width: 600px;
+    border-collapse: collapse;
+}
+
+th, td{
+    padding: 7px;
+    text-align: center;
+}
+
+th{
+    text-transform: uppercase;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #111;
+    font-size: 90%;
+}
+
+tr.alternado{
+    background-color: #EFEFEF;
+}
+
+tr:hover{
+    background-color: #C3E6E5;
+}
+
+.numero{
+    text-align: right;
 }
