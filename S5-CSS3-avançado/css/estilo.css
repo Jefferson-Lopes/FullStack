@@ -310,7 +310,7 @@ body{
 /******
 Tabelas
 ******/
-
+/*
 body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -342,4 +342,34 @@ tr:hover{
 
 .numero{
     text-align: right;
+}
+*/
+
+
+/**********
+Formulários
+**********/
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+fieldset{
+    padding: 1em;
+    margin: 1em 0;
+    border: 1px solid #CCC;
+    background-color: #F8F8F8;
+}
+
+legend{
+    font-weight: bold;
+}
+
+label{
+    display: block;
+    cursor: pointer;
+}
+
+input{
+    width: 20em;
 }
