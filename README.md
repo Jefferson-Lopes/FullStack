@@ -2,7 +2,8 @@
  These are my Full Stack projects
  
 ## Projeto: UNES
-![UNES](images/UNES.png)
+{r pressure, echo=FALSE, fig.cap="A caption", out.width = '50%'}
+knitr::include_graphics("images/UNES.png")
 
 ## References
  * [Full Stack course](https://www.udemy.com/share/101WqGBkIdd11aRHw=/) on Udemy
