@@ -2,7 +2,7 @@
  These are my Full Stack projects
  
 ## Project: UNES
-![](projeto1-UNES/UNES.png)
+![](projeto1-Unes/UNES.png)
 
 ## Project: Anna
 ![](projeto2-Anna/Anna.png)
