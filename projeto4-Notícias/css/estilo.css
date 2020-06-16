@@ -1,3 +1,7 @@
+/************
+Config gerais
+************/
+
 *{
     margin: 0;
     padding: 0;
@@ -13,6 +17,12 @@ ul{
     padding: 0;
     list-style: none;   
 }
+
+
+
+/***
+Topo
+***/
 
 .logo{
     width: 152px;
@@ -70,6 +80,116 @@ body.saude #navegacao a#saude,
 body.ciencia #navegacao a#ciencia,
 body.fotos #navegacao a#fotos{
     color: white;
-    background-color: #DE003e;
+    background-color: #DE003E;
     cursor: text;
+}
+
+
+
+/*******
+Conteudo
+********/
+
+#conteudo{
+    margin-top: 60px;
+    background: whitesmoke;
+
+}
+
+#tres-colunas #primario{
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 195px;
+}
+
+#duas-colunas #primario{
+    width: 555px;
+    float: left;
+    margin: 0 0 20px 195px;
+}
+
+#uma-coluna #primario{
+    width: 750px;
+    float: left;
+    margin: 0 0 20px 0;
+}
+
+#secundario{
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 15px;
+}
+
+#lateral{
+    width: 180px;
+    float: left;
+    margin: 0 0 20px -750px;
+}
+
+.caixa{
+    margin: 10px 0;
+    padding: 5px;
+    background: whitesmoke url(../imagens/fundo-caixa.png);
+}
+
+h2{
+    font-size: 1.1em;
+    background-color: #294C71;
+    color: white;
+    padding: 5px;
+}
+
+.caixa-conteudo{
+    padding: 5px;
+    background-color: white;
+}
+
+#lateral ul a{
+    font-size: 0.9em;
+    padding: 3px;
+    display: block;
+    line-height: 30px;
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px solid #F3F3F3;
+}
+
+#lateral ul a:hover{
+    background: #F9F9F9 url(../imagens/marcador.png) no-repeat left center;
+    color: #919191;
+    padding-left: 20px;
+}
+
+label{
+    display: block;
+    cursor: pointer;
+}
+
+input{
+    font-size: 0.9em;
+    margin-top: 5px;
+    padding: 5px;
+    width: 145px;
+    background-color: white;
+}
+
+input.submit{
+    width: 80px;
+    color: white;
+    background-color: #B10333;
+    border: 2px solid #870529;
+    cursor: pointer;
+}
+
+#container-rodape{
+    background-color: #294C71;
+    padding: 20px;
+    clear: both;
+}
+
+#rodape{
+    width: 750px;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
 }
