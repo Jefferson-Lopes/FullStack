@@ -84,3 +84,45 @@ a.reserva{
     padding: 5px 10px;
     float: right;
 }
+
+#menu{
+    margin-top: 15px;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul#navegacao{
+    float: left;
+}
+
+ul#navegacao a{
+    text-transform: uppercase;
+    font-size: 0.8em;
+    padding: 5px;
+    color: #6E672C;
+    line-height: 30px;
+}
+
+ul#navegacao a:hover{
+    background-color: #FDF6BE;
+}
+
+.depoimento{
+    width: 226px;
+    height: 164px;
+    float: right;
+}
+
+#nome{
+    position: absolute;
+    top: 177px;
+    right: 73px;
+    font-weight: bold;
+    color: #6E672C;
+    background-color: #DFD393;
+    font-size: 1.28em;
+}
