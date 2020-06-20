@@ -148,4 +148,47 @@ ul#navegacao a:hover{
 
 #rodape{
     clear: both;
+    padding: 16px;
+    background: white url(../imagens/bg-rodape.png) repeat-x top;
+    color: #7D7640;
+    text-align: right;
+}
+
+h2{
+    color: #7D7640;
+    font-size: 1.1em;
+    padding: 5px 0;
+}
+
+p{
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+#beneficios li{
+    padding: 8px;
+    border-bottom: 1px solid #F3EFCB;
+    height: 6em;
+}
+
+#beneficios li a img{
+    float: left;
+    margin-right: 8px;
+}
+
+#beneficios li a h3{
+    font-size: 1em;
+    color: #615B2D;
+    padding: 5px 0;
+    background: url(../imagens/ornamento.png) no-repeat center right;
+}
+
+#beneficios li a p{ 
+    font-size: 0.8em;
+    color: black;
+}
+
+#beneficios li:hover{
+    background-color: #F6F3D6;
+    cursor: pointer;
 }
