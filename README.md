@@ -13,6 +13,9 @@
 ## Project4: TecBlog
 ![](projeto4-Notícias/Notícias.png)
 
+## Project5: Chalé Hotel
+![](projeto5-Chalé/Chalé.png)
+
 ## References
  * [Full Stack course](https://www.udemy.com/share/101WqGBkIdd11aRHw=/) on Udemy
 
