@@ -10,4 +10,4 @@ var test = true
 
 //alert(numeroFloat)
 //document.write(texto)
-console.log()
+console.log(numeroInt)
