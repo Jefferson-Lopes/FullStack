@@ -16,7 +16,7 @@ if (M < 16){
 }else if (M < 18.5){
     classificacao = 'Baixo peso'
 }else if (M < 25){
-    dclassificacao = 'Peso normal'
+    classificacao = 'Peso normal'
 }else if (M < 30){
     classificacao = 'Sobrepeso'
 }else if (M < 35){
