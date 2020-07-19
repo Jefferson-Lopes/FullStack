@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulando Classes</title>
+
+    <style>
+        .estilo1 {
+            background-color: blueviolet;
+            color: burlywood;
+        }
+
+        .estilo2 {
+            background-color: cadetblue;
+            color: crimson;
+        }
+    </style>
+
+    <script>
+        function modificaClasse() {
+            document.getElementById('mensagem').className = 'estilo2'
+        }
+    </script>
+</head>
+
+<body>
+    
+    <div id="mensagem" class="estilo1">
+        Modificando a classe do elemento
+    </div>
+
+    <hr>
+
+    <button onclick="modificaClasse()">Aplicar classe</button>
+
+</body>
+
+</html>
